@@ -3,14 +3,14 @@ html, body{
   height: 100%;
 }
 .App{
-background-color: darkolivegreen;
+
 height: 100vh;
 width: 100%;
 
 
 }
 .window{
-  background-color: rosybrown;
+  background-color: lightslategray;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -20,31 +20,42 @@ width: 100%;
   
 }
 .title{
-  background-color: gray;
+  background-color: black;
+  color: white;
   height: 30px;
+  width: 100%;
   padding-left: 10px;
   padding-top: 5px;
   margin-top: 0px;
 
 }
-#editor{
-  background-color: #61dafb;
-  overflow-y: scroll;
+#editor-widnow{
+  background-color: black;
+  overflow-y: auto;
+  overflow-x: hidden;
   width: 45%;
   margin: 50px auto;
+  box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.4);
+  border-radius: 10px;
   textarea{
+    margin: 0px;
     height: 100%;
     width: 100%;
+    color: springgreen;
+    background-color: black;
     resize: none;
   }
 }
 #previewer{
-  background-color: cornflowerblue;
+  background-color: lightslategray;
+  color: white;
   overflow-y: scroll;
   width: 45%;
   margin: 50px auto;
+  box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.4);
+  border-radius: 10px;
   p{
-    background-color: white;
+
     padding: 0px 1em;
   }
 
